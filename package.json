@@ -31,19 +31,19 @@
   ],
   "main": "./lib",
   "dependencies": {
-    "pkginfo": "0.2.x",
-    "passport": "~0.1.1",
-    "oauth": "0.9.x",
-    "webfinger": "0.3.x"
+    "pkginfo": "^0.4.0",
+    "passport": "^0.3.2",
+    "oauth": "^0.9.14",
+    "webfinger": "^0.4.2"
   },
   "devDependencies": {
-    "mocha": "1.x.x",
-    "chai": "1.x.x"
+    "chai": "^3.5.0",
+    "mocha": "^3.0.0"
   },
   "scripts": {
     "test": "NODE_PATH=./lib node_modules/.bin/mocha --reporter spec --require test/node/bootstrap test/*.test.js"
   },
   "engines": {
-    "node": ">= 0.6.0"
+    "node": ">= 0.8.0"
   }
 }
